@@ -1,0 +1,40 @@
+/*TITLE*/
+.image-title {
+    object-fit: cover;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.btn {
+    padding: 16px;
+    margin: 24px auto 0 auto;
+    min-width: 160px;
+    background: yellow;
+    color: white;
+}
+
+/*SERVICES*/
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services {
+    flex: 0 0 33, 333%;
+    position: relative;
+}
